@@ -24,9 +24,18 @@ Conda can be installed as part of the Anaconda or Miniconda distributions:
 Conda allows you to create isolated environments to manage different project dependencies separately.
 
 ### Creating an Environment
-
 ```bash
 conda create --name myenv python=3.8
+```
+Creating from yaml file:
+```bash
+conda env create -f environment.yml
+```
+
+### Deleting an Environment
+
+```bash
+conda env remove --name gpt
 ```
 
 ### Activating an Environment
