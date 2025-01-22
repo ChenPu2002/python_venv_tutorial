@@ -78,6 +78,10 @@ conda update numpy
 conda remove numpy
 ```
 
+## Under Development
+## Poetry
+## Pipenv
+## uv
 ## FAQ
 
 ## Additional Resources
