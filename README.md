@@ -1,8 +1,8 @@
-# A Guide to Using Conda
+## A Guide to Using Python Venv (including conda, poetry, pipenv and uv)
 
 Conda is a popular package and environment management tool widely used in scientific computing and data science, particularly for handling Python projects. Here's a basic guide on how to use Conda.
 
-## Installing Conda
+## Conda
 
 Conda can be installed as part of the Anaconda or Miniconda distributions:
 
