@@ -1,4 +1,4 @@
-## A Guide to Using Python Venv (including conda, poetry, pipenv and uv)
+## A Guide to Using Python Venv (including conda, poetry and uv)
 
 Conda is a popular package and environment management tool widely used in scientific computing and data science, particularly for handling Python projects. Here's a basic guide on how to use Conda.
 
@@ -78,10 +78,47 @@ conda update numpy
 conda remove numpy
 ```
 
-## Under Development
 ## Poetry
-## Pipenv
+Poetry is a new venv managerment software.
+
 ## uv
+uv is an extremely fast Python package manager
+
+- End-to-end project management: uv run, uv lock, and uv sync. uv can now generate and install from cross-platform lockfiles based on standards-compliant metadata, making it a high-performance, unified alternative to tools like Poetry, PDM, and Rye.
+
+Download through
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Init
+```bash
+uv init
+```
+
+Add packages
+```bash
+uv add pandas
+```
+```bash
+uv python install
+```
+
+Lock dependencies
+```bash
+uv lock
+```
+
+Ruff check
+```bash
+uvx ruff check
+```
+
+```
+uv run
+```
+
+
 ## FAQ
 
 ## Additional Resources
